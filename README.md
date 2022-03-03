@@ -6,14 +6,13 @@ PLEASE NOTE THAT THIS PROJECT ISNT USABLE YET
 # Installation
 
 To install this project you will go to code and Download zip
+This is project entirelly based on python so please make sure you have 3.9 or above
 
 # Libraries
 
 In this project make sure you have installed these libraries 
 
-Matplotlib
-Os
-random
+Matplotlib, Os, random
 
 
 # Support
