@@ -9,6 +9,7 @@ from settings import imagiane, nphotos, nlayers
 
 randomizer = []
 saveeeeed = []
+Stillindevelopment = True
 
 
 def getfiles(path):
@@ -40,10 +41,14 @@ def mainss():
         plt.clf()
         
         
-
-
-mainss()
-print(saveeeeed)
+if Stillindevelopment == True:
+    print("Hello, Thank you for downloading this Project, Its still in development so its still not functional so then please wait till it works")
+elif len(imagiane) < 2 or isinstance(nphotos, int) == False or isinstance(nlayers, int) == False:
+    print("Make sure that you dont leave the none of the settings.py variables are blank. If you dont know what that does please read the settings.py")    
+    print("Any questions make sure to ask on the github page or in a our discord server")
+else:
+    mainss()
+    print(saveeeeed)
 
 
 
