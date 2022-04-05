@@ -8,8 +8,8 @@ nphotos = 3
 # number of layers, can only be an integer
 nlayers = 2
 
-#the cropping
-area = (350,350,1500,1700)
+#the cropping, you have to every image the same and then tweak to when its perfect
+area = (0,0,1500,1700)
 
 # lastly go to the main file and ignore the first line and hit crtl + F and type "lASDosdAadasM" and follow the instructions there
 

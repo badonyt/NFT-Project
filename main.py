@@ -46,9 +46,9 @@ def mainss():
         # (Tip just copy and paste for how much layers you need and change the numbers)
         plt.imshow(plt.imread(randomizer[0]))
         plt.imshow(plt.imread(randomizer[1]))
-        currentnumber = i
-        plt.savefig(f'lastphase/temporaryrender{i + 1}.png')
-        p.Image.open(f"C:/Users/lmsou/Documents/GitHub/NFT-Project/lastphase/temporaryrender{currentnumber + 1}.png").crop(area).save(f"finalrender/finalrender{currentnumber + 1}.png")
+        currentnumber = i + 1
+        plt.savefig(f'lastphase/temporaryrender{currentnumber}.png')
+        p.Image.open(f"C:/Users/lmsou/Documents/GitHub/NFT-Project/lastphase/temporaryrender{currentnumber}.png").crop(area).save(f"finalrender/finalrender{currentnumber}.png")
         plt.clf()
         
         
